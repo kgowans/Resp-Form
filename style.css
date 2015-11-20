@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+/*font-family: 'Droid Sans', sans-serif;*/
+
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,700);
+
+/*font-family: 'PT Serif', serif;*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.masthead {
+    background-color: #BD00CC;
+}
+
+.masthead h1 {
+    padding: 1em 0em;
+}
+
+h1,
+h3 {
+    font-family: 'PT Serif', serif;
+    margin-left: 0.5em;
+}
+
+h1 {
+    font-size: 1.3em;
+}
+
+h3 {
+    font-size: 1em;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F8A5FF;
+}
+
+form {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Droid Sans', sans-serif;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+input {
+    width: 100%;
+    padding: 0.3em;
+}
+
+label {
+    display: none;
+}
+
+.box {
+    padding: 0.5em;
+}
+
+@media all and (min-width: 600px) {
+    label {
+        display: block;
+    }
+    .box {
+        width: 50%;
+        float: left;
+    }
+    input[type="submit"] {
+        max-width: 150px;
+    }
+    h1 {
+        font-size: 1.6em;
+    }
+    h3 {
+        font-size: 1.3em;
+    }
+}
+
+@media all and (min-width: 1024px) {
+    input {
+        display: inline-block;
+        width: 70%;
+    }
+    label {
+        display: inline-block;
+        width: 100px;
+    }
+    input[type="submit"] {
+        margin: 0 0 0 100px;
+    }
+}
